@@ -7,7 +7,7 @@ def generate_launch_description():
     # Declare the `map_file` argument
     map_file_arg = DeclareLaunchArgument(
         'map_file',
-        default_value='/home/qasob/test_map_ws/src/map_provider/maps/ab_correct_scaled.yaml',
+        default_value='/home/dosymzhan/test_map_ws/src/map_provider/maps/cabinet_unity.yaml',
         description='Path to the map file'
     )
 

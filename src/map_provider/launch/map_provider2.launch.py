@@ -2,12 +2,14 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration
 from launch.actions import DeclareLaunchArgument, TimerAction, ExecuteProcess
+import os
+
 
 def generate_launch_description():
     # Declare the `map_file` argument
     map_file_arg = DeclareLaunchArgument(
         'map_file',
-        default_value='/home/qasob/test_map_ws/src/map_provider/maps/ab_map.yaml',
+        default_value = os.path.expanduser("~/test_map_ws/src/map_provider/maps/cabinet_unity.yaml"),
         description='Path to the map file'
     )
 
