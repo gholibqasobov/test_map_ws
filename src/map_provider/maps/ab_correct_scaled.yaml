@@ -1,4 +1,4 @@
-image: /home/dosymzhan/test_map_ws/src/map_provider/maps/ab_correct_scaled.pgm
+image: /home/qasob/test_map_ws/src/map_provider/maps/ab_correct_scaled.pgm
 resolution: 0.050000
 origin: [-4, -23.7, 0.000000]
 negate: 0

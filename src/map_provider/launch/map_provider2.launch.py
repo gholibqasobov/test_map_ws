@@ -9,7 +9,7 @@ def generate_launch_description():
     # Declare the `map_file` argument
     map_file_arg = DeclareLaunchArgument(
         'map_file',
-        default_value = os.path.expanduser("~/test_map_ws/src/map_provider/maps/cabinet_unity.yaml"),
+        default_value = os.path.expanduser("~/test_map_ws/src/map_provider/maps/ab_with_lab.yaml"),
         description='Path to the map file'
     )
 

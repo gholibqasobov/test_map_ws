@@ -1,4 +1,4 @@
-image: /home/dosymzhan/test_map_ws/src/map_provider/maps//cabinet_unity.pgm
+image: /home/qasob/test_map_ws/src/map_provider/maps/cabinet_unity.pgm
 resolution: 0.050000
 origin: [-6.7, 9.7, -1.5708]
 negate: 0
